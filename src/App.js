@@ -14,6 +14,8 @@ import WishList from './components/WishList';
 
 function App() {
   return (
+
+    
     <Router>
       <div>
         <nav>
@@ -21,6 +23,7 @@ function App() {
             <li>
               <Link to="/">Home</Link>
             </li>
+            
             <li>
               <Link to="/search">Search</Link>
             </li>
@@ -39,7 +42,14 @@ function App() {
         </Routes>
       </div>
     </Router>
+    
+    
+    
   );
+  
 }
+
+
+
 
 export default App;
